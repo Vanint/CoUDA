@@ -11,23 +11,23 @@ Numpy 1.15.4
 Please use this code after downloading the dataset and the model (download linking is attached as below).
 
 ### Training:
-Take the model adapted from webcam to amazon as an example. There are two steps:\
-1. Set the environment file: vi src_office/conf/local_nn_dual.yml\
+Take the model adapted from webcam to amazon as an example. There are two steps:
+1. Set the environment file: vi src_office/conf/local_nn_dual.yml
 2. CUDA_VISIBLE_DEVICES=0 python src_office/train_dual.py >> ./dual_log_office/ours/webcam_2_amazon.txt src_office/conf/local_mn_dual.yml
 
 ### Test
-Take the model adapted from dslr to webcam as an example. There are two steps:\
-1. Set the environment file: vi src_office/conf/predict_dual.yml\
+Take the model adapted from dslr to webcam as an example. There are two steps:
+1. Set the environment file: vi src_office/conf/predict_dual.yml
 2. CUDA_VISIBLE_DEVICES=0 python src_office/predict_dual.py >> ./dual_log_office/ours/dslr_2_webcam/test.txt src_office/conf/predict_dual.yml
 
 ## Model
-Plase download the trained model through:\
-https://drive.google.com/file/d/1BkaWHP2C0GQtz-Zu46kZIAe0Fav3VORO/view?usp=sharing.\
+Plase download the trained model through:
+https://drive.google.com/file/d/1BkaWHP2C0GQtz-Zu46kZIAe0Fav3VORO/view?usp=sharing.
 Put the the model file (dual_log_office) in the main directoty.
 
 ## Dataset
 The attached dataset is Office-31 corrupted by the label noise rate 0.1.\
-Please download the dataset through: https://drive.google.com/file/d/1SBrPKQqpZfe1c2J9NDV3E9smLxKhgbNY/view?usp=sharing. \
+Please download the dataset through: https://drive.google.com/file/d/1SBrPKQqpZfe1c2J9NDV3E9smLxKhgbNY/view?usp=sharing. 
 Put the dataset file (domain_adaptation_images) in the main directoty.
 
 ## Citation:
