@@ -1,0 +1,28 @@
+container:
+    env:
+    - name: BATCH_SIZE 
+      value: 1
+    - name: INIT_LR
+      value: 0.0001
+    - name: alpha
+      value: 0.1
+    - name: gamma
+      value: 2
+    - name: eta
+      value: 0.01
+    - name: beta
+      value: 0.1
+    - name: INIT_MODEL_NAME
+      value: wsi_r8
+    - name: INIT_MODEL_FILE
+      value: ./dual_log_office/ours/dslr_2_webcam/mnet_v2_wsi_r8-vbest
+    - name: TEST_DSET_PATH
+      value: ./domain_adaptation_images/office/noise_10/webcam_test_list.txt
+    - name: EPOCH
+      value: 100
+    - name: OPTIMIZER
+      value: adam
+    - name: VERBOSE
+      value: 2
+    - name: TRAINING_SAMPLES
+      value: 4000

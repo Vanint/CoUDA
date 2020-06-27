@@ -1,0 +1,34 @@
+container:
+    env:
+    - name: BATCH_SIZE 
+      value: 8
+    - name: INIT_LR
+      value: 0.0001
+    - name: alpha
+      value: 0.1
+    - name: gamma
+      value: 1
+    - name: eta
+      value: 0.01
+    - name: beta
+      value: 0.01
+    - name: INIT_MODEL_NAME
+      value: wsi_r8
+    - name: INIT_MODEL_FILE
+      value: ./dual_log_office/mobilenet_ckpt/mobilenet
+    - name: S_DSET_PATH
+      value: ./domain_adaptation_images/office/noise_10/webcam_train_noisy_uneven_list.txt
+    - name: T_DSET_PATH
+      value: ./domain_adaptation_images/office/noise_10/amazon_train_list.txt
+    - name: TEST_DSET_PATH
+      value: ./domain_adaptation_images/office/noise_10/amazon_test_list.txt
+    - name: EPOCH
+      value: 100
+    - name: OUTPUT_FOLDER
+      value: ./dual_log_office/try/webcam_2_amazon
+    - name: OPTIMIZER
+      value: adam
+    - name: VERBOSE
+      value: 2
+    - name: TRAINING_SAMPLES
+      value: 4000
