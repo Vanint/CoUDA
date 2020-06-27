@@ -31,7 +31,7 @@ Please download the dataset through: https://drive.google.com/file/d/1SBrPKQqpZf
 Put the dataset file (domain_adaptation_images) in the main directoty.
 
 ## Citation:
-If you use this code, please cite:
+If you use this code and dataset, please cite:
 ```
 @article{zhang2020collaborative,
   title={Collaborative Unsupervised Domain Adaptation for Medical Image Diagnosis},
