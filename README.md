@@ -24,7 +24,7 @@ Take the model adapted from dslr to webcam as an example. There are two steps:
 2. CUDA_VISIBLE_DEVICES=0 python src_office/predict_dual.py >> ./dual_log_office/ours/dslr_2_webcam/test.txt src_office/conf/predict_dual.yml
 
 ## Model
-Plase download the trained model through:
+Plase download the trained model through: https://drive.google.com/file/d/1BkaWHP2C0GQtz-Zu46kZIAe0Fav3VORO/view?usp=sharing.
 
 Put the the model file (dual_log_office) in the main directoty.
 
