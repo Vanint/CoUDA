@@ -23,7 +23,7 @@ Take the model adapted from dslr to webcam as an example. There are two steps:
 ## Model
 Plase download the trained model through: \
 https://drive.google.com/file/d/1BkaWHP2C0GQtz-Zu46kZIAe0Fav3VORO/view?usp=sharing. \
-Put the the model file (dual_log_office) in the main directoty.
+Put the the model file (dual_log_office) in the main directory.
 
 ## Dataset
 The attached dataset is Office-31 corrupted by the label noise rate 0.1. \
