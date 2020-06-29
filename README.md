@@ -8,7 +8,7 @@ Opencv-python\
 Numpy 1.15.4
 
 ## Usage
-Please use this code after downloading the dataset and the model (download linking is attached as below).
+Please use this code after downloading the dataset and the model.
 
 ### Dataset and Model
 Dataset: The attached dataset is Office-31 corrupted by the label noise rate 0.1. \
