@@ -14,7 +14,7 @@ Please use this code after downloading the dataset and the model.
 Dataset: The attached dataset is Office-31 corrupted by the label noise rate 0.1. \
 Please download the dataset [[here](https://drive.google.com/file/d/1SBrPKQqpZfe1c2J9NDV3E9smLxKhgbNY/view?usp=sharing)] and put the dataset file (domain_adaptation_images) in the main directoty.
 
-Model: Plase download the trained model [[here](https://drive.google.com/file/d/1BkaWHP2C0GQtz-Zu46kZIAe0Fav3VORO/view?usp=sharing)], and put the the model file (dual_log_office) in the main directory.
+Model: Plase download the trained model [[here](https://drive.google.com/file/d/1BkaWHP2C0GQtz-Zu46kZIAe0Fav3VORO/view?usp=sharing)], and put the model file (dual_log_office) in the main directory.
 
 ### Training
 Take the model adapted from webcam to amazon as an example. There are two steps:
