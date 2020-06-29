@@ -35,7 +35,7 @@ If you use this code and dataset, please cite:
 ```
 @article{zhang2020collaborative,
   title={Collaborative Unsupervised Domain Adaptation for Medical Image Diagnosis},
-  author={Zhang, Yifan and Wei, Ying and Zhao, Peilin and Niu, Shuaicheng and Wu, Qingyao and Huang, Junzhou and Tan, Mingkui},
+  author={Zhang, Yifan and Wei, Ying and Wu, Qingyao and Zhao, Peilin and Niu, Shuaicheng and Huang, Junzhou and Tan, Mingkui},
   journal={IEEE Transactions on Image Processing},
   year={2020}
 }  
